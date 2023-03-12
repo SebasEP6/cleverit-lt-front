@@ -4,7 +4,7 @@ import styles from '@/styles/components/Container/Float.module.sass';
 
 interface IFloatContainer {
   position?: 'right' | 'left';
-  children: ReactNode
+  children: ReactNode;
 }
 
 const FloatContainer: React.FC<IFloatContainer> = ({
